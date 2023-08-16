@@ -1,0 +1,20 @@
+nav{
+    background-color: rgba(150, 208, 204, 0.811);
+    height: 500px;
+    
+}
+
+.video-bg{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    opacity: 0.8;
+    z-index: 0;
+  }
+
+  .pannello{
+    background-color: white;
+    z-index: 2;
+  }
