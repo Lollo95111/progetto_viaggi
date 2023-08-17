@@ -14,3 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [myController::class,'welcome'])->name('Home');
+Route::get('/continenti/{continente}',[myController::class,'sceltaContinenti'])->name('Continenti');

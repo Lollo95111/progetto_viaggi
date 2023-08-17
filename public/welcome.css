@@ -1,3 +1,8 @@
+
+*{
+  font-family: monospace;
+}
+
 nav{
     background-color: rgba(150, 208, 204, 0.811);
     height: 500px;
@@ -18,3 +23,17 @@ nav{
     background-color: white;
     z-index: 2;
   }
+
+   .card{
+    width: 20rem;
+    height: 30rem;
+  }
+
+  .btn{
+    border: 2px solid rgba(154, 192, 204, 0.948);
+    border-radius: 50%;
+  }
+
+  .btn:hover{
+    background-color: rgba(154, 192, 204, 0.948);
+  } 

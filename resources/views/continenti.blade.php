@@ -19,19 +19,12 @@
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Dropdown link
           </a>
-          <ul class="dropdown-menu">
-          @foreach($mostraC as $cat)
-            <li><a class="dropdown-item" href="{{route('Continenti',['continente'=>$cat])}}">{{$cat}}</a></li>
-            @endforeach
-          </ul>
-        </li>
+         
     
 </nav>
 
-<video class="video-bg" src="/viaggi.mp4" autoplay muted loop></video>
 
-
-    <section class="container mt-5 pannello" >
+<section class="container mt-5 pannello" >
 <div class="row" >
 @foreach($cardmostrare as $card)
 <div class="col-12 col-md-3 my-3 bordi">
